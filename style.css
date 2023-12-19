@@ -1,0 +1,55 @@
+body{
+    background-image:url(./images/richard-biros-pXFDctQsUys-unsplash.jpg);
+    background-attachment:fixed;
+    background-size:cover;
+    background-position:center;
+}    
+
+.gallery{
+    display: inline-block;
+    border: 2px solid rgb(3, 0, 95);
+    margin: 5px;
+    box-shadow: 3px 3px 5px;
+    width: 485px;
+    
+}
+
+.description{
+    text-align: center;
+    padding: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    font-weight: bold;
+    color: white;
+}
+
+.gallery img{
+width: 100%;
+}
+
+.gallery:hover{
+    border: 2px solid rgb(0, 0, 229);
+}
+
+p::selection{
+    background-color: rgb(144, 2, 2);
+    color: white;
+}
+
+.description::selection{
+    background-color:rgb(144, 2, 2); 
+    color: white;
+}
+
+p{
+    color: rgb(212, 212, 212);
+}
+
+@media screen and (max-width:600px) {
+    body, .gallery, .description{
+        width: 100%;
+    }
+    
+}
+
+
